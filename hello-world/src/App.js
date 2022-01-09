@@ -11,8 +11,19 @@ function App() {
       <h2>{greeting}</h2> 
       <label htmlFor="bar">bar</label>
       <input type="text" id='bar' onChange={ () => console.log("yeah!") }/>
+      <Cat />
+      <Cat />
+      <Cat />
     </>
   );
+}
+
+const Cat = () => {
+  return (
+    <>
+      <div>Mew!</div>
+    </>
+  )
 }
 
 
